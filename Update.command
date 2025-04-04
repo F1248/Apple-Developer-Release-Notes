@@ -8,6 +8,8 @@ import markdownify
 import playwright.sync_api
 import requests
 
+os.chdir(os.path.dirname(__file__))
+
 os_names: list[str] = [
 	"iOS & iPadOS",
 	"macOS",
